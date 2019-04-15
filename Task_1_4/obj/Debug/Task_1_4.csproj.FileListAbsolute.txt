@@ -1,0 +1,7 @@
+E:\trainee\C#\MainAcademy\MainAc_allTasks\Modul1\Task_1_4\bin\Debug\Task_1_4.exe.config
+E:\trainee\C#\MainAcademy\MainAc_allTasks\Modul1\Task_1_4\bin\Debug\Task_1_4.exe
+E:\trainee\C#\MainAcademy\MainAc_allTasks\Modul1\Task_1_4\bin\Debug\Task_1_4.pdb
+E:\trainee\C#\MainAcademy\MainAc_allTasks\Modul1\Task_1_4\obj\Debug\Task_1_4.csprojAssemblyReference.cache
+E:\trainee\C#\MainAcademy\MainAc_allTasks\Modul1\Task_1_4\obj\Debug\Task_1_4.csproj.CoreCompileInputs.cache
+E:\trainee\C#\MainAcademy\MainAc_allTasks\Modul1\Task_1_4\obj\Debug\Task_1_4.exe
+E:\trainee\C#\MainAcademy\MainAc_allTasks\Modul1\Task_1_4\obj\Debug\Task_1_4.pdb
