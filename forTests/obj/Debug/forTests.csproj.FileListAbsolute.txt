@@ -5,3 +5,10 @@ E:\trainee\C#\MainAcademy\MainAc_allTasks\forTests\obj\Debug\forTests.csprojAsse
 E:\trainee\C#\MainAcademy\MainAc_allTasks\forTests\obj\Debug\forTests.csproj.CoreCompileInputs.cache
 E:\trainee\C#\MainAcademy\MainAc_allTasks\forTests\obj\Debug\forTests.exe
 E:\trainee\C#\MainAcademy\MainAc_allTasks\forTests\obj\Debug\forTests.pdb
+E:\trainee\C#\MainAcademy\MainAc_allTasks\Modul1\forTests\bin\Debug\forTests.exe.config
+E:\trainee\C#\MainAcademy\MainAc_allTasks\Modul1\forTests\bin\Debug\forTests.exe
+E:\trainee\C#\MainAcademy\MainAc_allTasks\Modul1\forTests\bin\Debug\forTests.pdb
+E:\trainee\C#\MainAcademy\MainAc_allTasks\Modul1\forTests\obj\Debug\forTests.csprojAssemblyReference.cache
+E:\trainee\C#\MainAcademy\MainAc_allTasks\Modul1\forTests\obj\Debug\forTests.csproj.CoreCompileInputs.cache
+E:\trainee\C#\MainAcademy\MainAc_allTasks\Modul1\forTests\obj\Debug\forTests.exe
+E:\trainee\C#\MainAcademy\MainAc_allTasks\Modul1\forTests\obj\Debug\forTests.pdb

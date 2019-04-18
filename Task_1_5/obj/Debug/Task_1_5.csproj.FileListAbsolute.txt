@@ -5,3 +5,10 @@ E:\trainee\C#\MainAcademy\MainAc_allTasks\Task_1_5\bin\Debug\Task_1_5.exe
 E:\trainee\C#\MainAcademy\MainAc_allTasks\Task_1_5\bin\Debug\Task_1_5.pdb
 E:\trainee\C#\MainAcademy\MainAc_allTasks\Task_1_5\obj\Debug\Task_1_5.exe
 E:\trainee\C#\MainAcademy\MainAc_allTasks\Task_1_5\obj\Debug\Task_1_5.pdb
+E:\trainee\C#\MainAcademy\MainAc_allTasks\Modul1\Task_1_5\obj\Debug\Task_1_5.csprojAssemblyReference.cache
+E:\trainee\C#\MainAcademy\MainAc_allTasks\Modul1\Task_1_5\obj\Debug\Task_1_5.csproj.CoreCompileInputs.cache
+E:\trainee\C#\MainAcademy\MainAc_allTasks\Modul1\Task_1_5\obj\Debug\Task_1_5.exe
+E:\trainee\C#\MainAcademy\MainAc_allTasks\Modul1\Task_1_5\obj\Debug\Task_1_5.pdb
+E:\trainee\C#\MainAcademy\MainAc_allTasks\Modul1\Task_1_5\bin\Debug\Task_1_5.exe.config
+E:\trainee\C#\MainAcademy\MainAc_allTasks\Modul1\Task_1_5\bin\Debug\Task_1_5.exe
+E:\trainee\C#\MainAcademy\MainAc_allTasks\Modul1\Task_1_5\bin\Debug\Task_1_5.pdb

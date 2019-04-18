@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Threading;
 namespace Task_1_5
 {
@@ -47,8 +43,34 @@ namespace Task_1_5
         static void unary()
         {
             Console.WriteLine("Enter two positive integers");
-            int number1 = Convert.ToInt32(Console.ReadLine());
-            int number2 = Convert.ToInt32(Console.ReadLine());
+            int number1;
+            int number2;
+            for (; ; )
+            {
+                int testNumber1 = Convert.ToInt32(Console.ReadLine());
+                if (testNumber1 <= 0)
+                {
+                    Console.WriteLine("Enter positive integer");
+                }
+                else
+                {
+                    number1 = testNumber1;
+                    break;
+                }
+            }
+            for (; ; )
+            {
+                int testNumber2 = Convert.ToInt32(Console.ReadLine());
+                if (testNumber2 <= 0)
+                {
+                    Console.WriteLine("Enter positive integer");
+                }
+                else
+                {
+                    number2 = testNumber2;
+                    break;
+                }
+            }
             int SubtrAbsNum1Nam2;
             string num1str = "";
             string num2str = "";
@@ -81,6 +103,39 @@ namespace Task_1_5
         }
         static void binary()
         {
+
+            int number;
+            Console.WriteLine("Enter positive integer");
+            for (; ; )
+            {
+                int testNumber = Convert.ToInt32(Console.ReadLine());
+                if (testNumber <= 0)
+                {
+                    Console.WriteLine("Enter positive integer");
+                }
+                else
+                {
+                    number = testNumber;
+                    break;
+                }
+            }
+            int hldr;
+            string number_str = "";
+            while (number > 0)
+            {
+                hldr = number % 2;
+                number_str += hldr;
+                number = number / 2;
+            }
+            //Convert to charArray
+            char[] chars_number_str = number_str.ToCharArray();
+            //reverse
+            Array.Reverse(chars_number_str);
+            Console.WriteLine("After reversing:");
+            //convert to string
+            number_str = new string (chars_number_str);
+            Console.WriteLine(number_str);
+
 
         }
         static void Morse()
