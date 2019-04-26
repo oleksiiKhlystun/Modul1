@@ -2,18 +2,12 @@
 
 namespace Task_2_1_OOP_features
 {
-    // Воспользовался подсказкой. Сложновато для понимания 
+    // Using hint 
 
     // 1) declare interface ILibraryUser
     // declare method's signature for methods of class LibraryUser
 
-    interface ILibraryUser
-    {
-        void AddBook(string adBook);
-        void RemoveBook(string removeBook);
-        string BookInfo(int bookIndex);
-        int BooksCount();
-    }
+  
 
     // 2) declare class LibraryUser, it implements ILibraryUser
     class LibraryUser : ILibraryUser
@@ -36,7 +30,6 @@ namespace Task_2_1_OOP_features
             LastName = "LastName";
             Phone = "none";
             BookLimit = 10;
-
         }
         // 5) declare indexer BookList for array bookList
         internal string this[int index]
@@ -47,7 +40,6 @@ namespace Task_2_1_OOP_features
                     return (string)bookList[index];
                 else
                     return "Index is out of range";
-
             }
             set
             {

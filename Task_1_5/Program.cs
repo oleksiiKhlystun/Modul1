@@ -103,7 +103,6 @@ namespace Task_1_5
         }
         static void binary()
         {
-
             int number;
             Console.WriteLine("Enter positive integer");
             for (; ; )
@@ -135,8 +134,6 @@ namespace Task_1_5
             //convert to string
             number_str = new string (chars_number_str);
             Console.WriteLine(number_str);
-
-
         }
         static void Morse()
         {
@@ -159,9 +156,6 @@ namespace Task_1_5
                     Console.Beep(1000, 666);
                     Thread.Sleep(500);
                 }
-
-            
-          
-        }
+         }
     }
 }
