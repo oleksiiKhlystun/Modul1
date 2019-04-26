@@ -1,0 +1,29 @@
+﻿using System;
+
+namespace Task_2_2a_Cons_Dr_Methods
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            try
+            {
+                //Implement start position, width and height, symbol, message input
+                //Create Box class instance
+                Console.WriteLine("Enter Wigth,Height,Simbol,Left,Top");
+                Box box = new Box();
+                //Use  Box.Draw() method
+
+                box.Draw();
+                Console.WriteLine("Press any key...");
+                Console.ReadLine();
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("Error!");
+                Console.ReadLine();
+            }
+
+        }
+    }
+}
