@@ -16,15 +16,14 @@ namespace Task_2_3_Operator_overloading
             Money sum = new Money();
             sum = amount1 + amount1a; // USD and USD
             Console.WriteLine("Sum: " + sum.Amount + " " + sum.CurrencyType);
-			 // add 2 objects of  Money with anoter CurrencyType
-			Console.WriteLine("Amount1: " + (double)amount1 + "\r\nAmount2: " + (double)amount2);
+	    // add 2 objects of  Money with anoter CurrencyType
+	    Console.WriteLine("Amount1: " + (double)amount1 + "\r\nAmount2: " + (double)amount2);
             Console.WriteLine("Course USD: " +(int)CurrencyTypes.USD + "\r\nCourse EUR: " + (int)CurrencyTypes.EUR);
-			Money sum2 = new Money();
-			sum2 = amount1 + amount2; // EUR and UAH
-			if (amount1.CurrencyType != amount2.CurrencyType) Console.WriteLine("Different CurrencyType.Lets Converted to UAH");
+            Money sum2 = new Money();
+	    sum2 = amount1 + amount2; // EUR and UAH
             Console.WriteLine("Sum2: " + sum2.Amount + " " + sum2.CurrencyType);			
             // add 1st object of Money and double
-          //  double doubAm1 = Convert.ToDouble(amount1.Amount);
+           //  double doubAm1 = Convert.ToDouble(amount1.Amount);
             double sum1 = (double)amount1 + 1.789;
             Console.WriteLine("Sum: Amount1 + 1.789= " + sum1);
             // decrease 2nd object of Money by 1 
