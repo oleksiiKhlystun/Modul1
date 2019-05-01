@@ -29,21 +29,22 @@ namespace Task_2_3_Operator_overloading
         // 4) declare overloading of operator + to add 2 objects of Money
         public static Money operator +(Money amt1, Money amt2)
         {
-			if (amt1.CurrencyType != amt2.CurrencyType)
-			{
-				Converter (amt1);
-			    Converter (amt2);
-			 return new Money(amt1.Amount + amt2.Amount, amt1.CurrencyType=CurrencyTypes.UAH);
-			}
-			else
+           if (amt1.CurrencyType != amt2.CurrencyType)
+	       {
+	        Console.WriteLine("Different CurrencyType.Lets Converted to UAH");
+		Converter (amt1);
+		Converter (amt2);
+		return new Money(amt1.Amount + amt2.Amount, amt1.CurrencyType=CurrencyTypes.UAH);
+		}
+	    else
             return new Money(amt1.Amount + amt2.Amount, amt1.CurrencyType);
         }
-		public static Money Converter (Money money)
-		{
-			 money.Amount = money.Amount * (decimal)money.CurrencyType;
-			money.CurrencyType = CurrencyTypes.UAH;
-			return money;
-		}
+	public static Money Converter (Money money)
+	{
+	money.Amount = money.Amount * (decimal)money.CurrencyType;
+	money.CurrencyType = CurrencyTypes.UAH;
+	return money;
+	}
         // 5) declare overloading of operator -- to decrease object of Money by 1
         public static Money operator --(Money amt1)
         {
