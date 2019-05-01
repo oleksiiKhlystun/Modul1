@@ -2,7 +2,7 @@
 
 namespace Task_2_3_Operator_overloading
 {
-    // 1) declare enumeration CurrencyTypes, values UAH, USD, EU
+    // 1) declare enumeration CurrencyTypes, values UAH, USD, EUR
     enum CurrencyTypes : byte
    {
     UAH=1,
@@ -80,7 +80,7 @@ namespace Task_2_3_Operator_overloading
         }
         public static explicit operator string(Money atm1)
         {
-            return "Convert 1st object of Money to string " + Convert.ToString(atm1.Amount) + " " + Convert.ToString(atm1.CurrencyType); ;
+            return "Convert 1st object of Money to string " + Convert.ToString(atm1.Amount) + " " + Convert.ToString(atm1.CurrencyType);
         }
     }
 }
