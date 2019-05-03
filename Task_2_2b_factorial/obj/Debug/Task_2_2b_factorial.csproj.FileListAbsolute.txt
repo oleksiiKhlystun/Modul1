@@ -1,6 +1,0 @@
-E:\trainee\C#\MainAcademy\MainAc_allTasks\Modul1-2\Task_2_2b_factorial\bin\Debug\Task_2_2b_factorial.exe.config
-E:\trainee\C#\MainAcademy\MainAc_allTasks\Modul1-2\Task_2_2b_factorial\bin\Debug\Task_2_2b_factorial.exe
-E:\trainee\C#\MainAcademy\MainAc_allTasks\Modul1-2\Task_2_2b_factorial\bin\Debug\Task_2_2b_factorial.pdb
-E:\trainee\C#\MainAcademy\MainAc_allTasks\Modul1-2\Task_2_2b_factorial\obj\Debug\Task_2_2b_factorial.csproj.CoreCompileInputs.cache
-E:\trainee\C#\MainAcademy\MainAc_allTasks\Modul1-2\Task_2_2b_factorial\obj\Debug\Task_2_2b_factorial.exe
-E:\trainee\C#\MainAcademy\MainAc_allTasks\Modul1-2\Task_2_2b_factorial\obj\Debug\Task_2_2b_factorial.pdb
