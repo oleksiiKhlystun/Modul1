@@ -109,7 +109,7 @@ You can do whatever how many flights. How to transport the wolf, goat and cabbag
                                 way1 = true;
                                 Console.Write("Good!\n");
                             }
-                            else if (num == 2) { d = false; Console.Write("Good!\n"); }
+                            else if (num == 2) { way1 = false; Console.Write("Good!\n"); }
                             else
                             {
                                 exitCycle = false;
