@@ -37,8 +37,8 @@ namespace Task_1_5
             }
             Console.WriteLine("Press any key");
             Console.ReadLine();
-        
-         }
+
+        }
 
         static void unary()
         {
@@ -75,29 +75,28 @@ namespace Task_1_5
             string num1str = "";
             string num2str = "";
             string allStr = "";
-       //
-            for (int i = 1; i<=number1;i++)
+            //
+            for (int i = 1; i <= number1; i++)
             {
-               num1str= num1str+ "1";
+                num1str = num1str + "1";
             }
             for (int j = 1; j <= number2; j++)
             {
                 num2str = num2str + "1";
             }
-            allStr = num1str + "#"+ num2str;
+            allStr = num1str + "#" + num2str;
             Console.WriteLine(allStr);
-        //
-            if (number1 > number2) { SubtrAbsNum1Nam2 = number2; } else { SubtrAbsNum1Nam2 = number1; }      
+            //
+            if (number1 > number2) { SubtrAbsNum1Nam2 = number2; } else { SubtrAbsNum1Nam2 = number1; }
             for (int z = 1; z <= SubtrAbsNum1Nam2; z++)
             {
                 allStr = allStr.Substring(1);
                 allStr = allStr.Substring(0, allStr.Length - 1);
-                Console.WriteLine(allStr);  
+                Console.WriteLine(allStr);
             }
             if (number1 > number2) { allStr = allStr.Substring(0, allStr.Length - 1); } else { allStr = allStr.Substring(1); }
             Console.WriteLine(allStr);
-
-            Console.WriteLine($"obtained value as unary string is " + allStr);  
+            Console.WriteLine($"obtained value as unary string is " + allStr);
             Console.WriteLine($"obtained value as number is " + allStr.Length);
             Console.ReadKey();
         }
@@ -132,7 +131,7 @@ namespace Task_1_5
             Array.Reverse(chars_number_str);
             Console.WriteLine("After reversing:");
             //convert to string
-            number_str = new string (chars_number_str);
+            number_str = new string(chars_number_str);
             Console.WriteLine(number_str);
         }
         static void Morse()
@@ -140,22 +139,22 @@ namespace Task_1_5
             Console.WriteLine("Morse sound");
             // Console.WriteLine(" Stop - press 0");
             // bool Stop = true;
-           
-                for (int i = 1; i <= 3; i++)
-                {
-                    Console.Beep(1000, 666);
-                    Thread.Sleep(500);
-                }
-                for (int i2 = 1; i2 <= 3; i2++)
-                {
-                    Console.Beep(1000, 333);
-                    Thread.Sleep(250);
-                }
-                for (int i3 = 1; i3 <= 3; i3++)
-                {
-                    Console.Beep(1000, 666);
-                    Thread.Sleep(500);
-                }
-         }
+
+            for (int i = 1; i <= 3; i++)
+            {
+                Console.Beep(1000, 666);
+                Thread.Sleep(500);
+            }
+            for (int i2 = 1; i2 <= 3; i2++)
+            {
+                Console.Beep(1000, 333);
+                Thread.Sleep(250);
+            }
+            for (int i3 = 1; i3 <= 3; i3++)
+            {
+                Console.Beep(1000, 666);
+                Thread.Sleep(500);
+            }
+        }
     }
 }

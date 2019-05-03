@@ -10,34 +10,54 @@ namespace Task_2_2a_Cons_Dr_Methods
         //and a message inside the box
         private int width;
         public int Width
-		{
-			get {return width;}
-			set {width = value;}
-		}
+        {
+            set
+            {
+                if (value <= 0) { Console.WriteLine("Must be > 0"); }
+                else width = value;
+            }
+            get { return width; }
+        }
         private int height;
         public int Height
-		{
-			get {return height;}
-			set {height = value;}
-		}
-		private string simbol;
-        public string Simbol
-		{
-			get {return simbol;}
-			set {simbol = value;}
-		}
+        {
+            set
+            {
+                if (value <= 0) { Console.WriteLine("Must be > 0"); }
+                else height = value;
+            }
+            get { return height; }
+        }
+        private char simbol;
+        public char Simbol
+        {
+            set
+            {
+                if ((value == '+')|| (value == '.')|| (value == '*')) { simbol = value; }
+                else  Console.WriteLine("Please Enter simbol '+' or '.' or '*'");
+            }
+            get { return simbol; }
+        }
         private int left;
         public int Left
-		{
-			get {return left;}
-			set {left = value;}
-		}
+        {
+            set
+            {
+                if (value <= 0) { Console.WriteLine("Must be > 0"); }
+                else left = value;
+            }
+            get { return left; }
+        }
         private int top;
         public int Top
-		{
-			get {return top;}
-			set {top = value;}
-		}
+        {
+            set
+            {
+                if (value <= 0) { Console.WriteLine("Must be > 0"); }
+                else top = value;
+            }
+            get { return top; }
+        }
         //2.  Implement public Draw() method
         //to define start position, width and height, symbol, message  according to properties
         //Use Math.Min() and Math.Max() methods
@@ -54,7 +74,7 @@ namespace Task_2_2a_Cons_Dr_Methods
         //Change the message in the method to return the Box square
         //Use Console.SetCursorPosition() method
         //Trim the message if necessary
-        private int draw(int height, int width, string simbol, int left, int top)
+        private int draw(int height, int width, char simbol, int left, int top)
         {
             for (int i = 0; i < height; i++)
             {
@@ -74,7 +94,5 @@ namespace Task_2_2a_Cons_Dr_Methods
             }
             return width * height;
         }
-
-
     }
 }

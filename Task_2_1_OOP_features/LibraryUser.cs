@@ -7,7 +7,7 @@ namespace Task_2_1_OOP_features
     // 1) declare interface ILibraryUser
     // declare method's signature for methods of class LibraryUser
 
-  
+
 
     // 2) declare class LibraryUser, it implements ILibraryUser
     class LibraryUser : ILibraryUser

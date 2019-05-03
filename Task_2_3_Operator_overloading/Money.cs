@@ -4,10 +4,10 @@ namespace Task_2_3_Operator_overloading
 {
     // 1) declare enumeration CurrencyTypes, values UAH, USD, EUR
     enum CurrencyTypes : byte
-   {
-    UAH=1,
-    USD=27,
-    EUR=32
+    {
+        UAH = 1,
+        USD = 27,
+        EUR = 32
     }
 
     class Money
@@ -25,26 +25,26 @@ namespace Task_2_3_Operator_overloading
         {
             Amount = 0m;
             CurrencyType = CurrencyTypes.UAH;
-        }    
+        }
         // 4) declare overloading of operator + to add 2 objects of Money
         public static Money operator +(Money amt1, Money amt2)
         {
-           if (amt1.CurrencyType != amt2.CurrencyType)
-	       {
-	        Console.WriteLine("Different CurrencyType.Lets Converted to UAH");
-		Converter (amt1);
-		Converter (amt2);
-		return new Money(amt1.Amount + amt2.Amount, amt1.CurrencyType=CurrencyTypes.UAH);
-		}
-	    else
-            return new Money(amt1.Amount + amt2.Amount, amt1.CurrencyType);
+            if (amt1.CurrencyType != amt2.CurrencyType)
+            {
+                Console.WriteLine("Different CurrencyType.Lets Converted to UAH");
+                Converter(amt1);
+                Converter(amt2);
+                return new Money(amt1.Amount + amt2.Amount, amt1.CurrencyType = CurrencyTypes.UAH);
+            }
+            else
+                return new Money(amt1.Amount + amt2.Amount, amt1.CurrencyType);
         }
-	public static Money Converter (Money money)
-	{
-	money.Amount = money.Amount * (decimal)money.CurrencyType;
-	money.CurrencyType = CurrencyTypes.UAH;
-	return money;
-	}
+        public static Money Converter(Money money)
+        {
+            money.Amount = money.Amount * (decimal)money.CurrencyType;
+            money.CurrencyType = CurrencyTypes.UAH;
+            return money;
+        }
         // 5) declare overloading of operator -- to decrease object of Money by 1
         public static Money operator --(Money amt1)
         {

@@ -2,10 +2,9 @@
 {
     interface ILibraryUser
     {
-       
-            void AddBook(string adBook);
-            void RemoveBook(string removeBook);
-            string BookInfo(int bookIndex);
-            int BooksCount();
+        void AddBook(string adBook);
+        void RemoveBook(string removeBook);
+        string BookInfo(int bookIndex);
+        int BooksCount();
     }
 }
